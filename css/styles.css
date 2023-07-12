@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #232323;
+}
+
+footer {
+    background-color: #232323;
+}
+
+section div img {
+    max-width: 100%;
+}
+
+nav ul {
+    text-align: center;
+}
+
+div a {
+    text-decoration: none;
+}
+
+/* ----- HEADER ----- */
+
+.firma-header {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+.fondo-header-footer {
+    background-color: #121212;
+}
+
+/* ----- MAIN ----- */
+
+.titulos {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+}
+
+.subtitulos-h2 {
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.subtitulos-h3 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 1vh;
+}
+
+.parrafos {
+    text-align: center;
+    padding: 1vh;
+    color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img-presentacion {
+    padding: 2vh;
+    max-width: 100%;
+    border-radius: 50px;
+}
+
+#foto-perfil {
+    border-radius: 10px;
+}
+
+#text-bio {
+    padding: 3vh;
+}
+
+/* ----- FOOTER ----- */
+
+.color-nav {
+    color: lightgray;
+}
