@@ -86,6 +86,8 @@ div a {
 /* ----- DECORACIONEN PRESUP ----- */
 
 .foto-contacto {
+    height: 594px;
+    border-radius: 10px;
     object-fit: cover;
 }
 
