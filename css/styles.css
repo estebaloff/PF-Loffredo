@@ -71,15 +71,54 @@ div a {
 .img-presentacion {
     padding: 2vh;
     max-width: 100%;
-    border-radius: 50px;
+    border-radius: 35px;
 }
 
 #foto-perfil {
     border-radius: 10px;
 }
 
-#text-bio {
-    padding: 3vh;
+.titulo-bio {
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+/* ----- DECORACIONEN PRESUP ----- */
+
+.foto-contacto {
+    object-fit: cover;
+}
+
+/* ----- DECORACIONEN PRESUP ----- */
+
+.tarjeta-presup {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(87, 87, 87);
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    background-color: rgb(211, 204, 174);
+}
+
+.subtitulos-items {
+    text-align: center;
+    padding: 1vh;
+    color: rgb(131, 40, 4);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.items-presup {
+    text-align: left;
+    padding: 1vh;
+    color: rgb(3, 1, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.preguntas-frec {
+    padding-top: 3vh;
+    text-align: left;
+    color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* ----- FOOTER ----- */

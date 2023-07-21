@@ -46,54 +46,94 @@
         </div>
     </nav>
     <main>
-        <h1>Contacto</h1>
-        <section>
-            <fieldset>
-                <legend>CONTACTAME</legend>
-                <form action="" method="post" enctype="text/plain">
-                    <div>
-                        <label for="nombre">Nombre <strong>REQUERIDO</strong>: </label>
-                        <input type="text" name="" id="nombre" style="width: 321px;" placeholder="Nombre">
+        <h1 class="titulos">Contacto</h1>
+        <section class="container text-light">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <div class="mb-3 text-center">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre <strong>REQUERIDO</strong>: </label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
                     </div>
-                    <div>
-                        <label for="correo">Email <strong>REQUERIDO</strong>: </label>
-                        <input type="email" name="" id="correo" style="width: 258px;" placeholder="ejemplo@gmail.com">
+                    <div class="mb-3 text-center">
+                        <label for="exampleFormControlInput1" class="form-label">Ingrese su apellido:</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
                     </div>
-                    <div>
-                        <label for="telefono">Celular <strong>REQUERIDO</strong>:</label>
-                        <input type="text" name="" id="telefono" style="width: 277px" placeholder="ejemplo: 1122334455">
+                    <div class="mb-3 text-center">
+                        <label for="exampleFormControlInput1" class="form-label">Email <strong>REQUERIDO</strong>:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="nombre@ejemplo.com">
                     </div>
-                    <div>
-                        <label for="sesion">¿Qué temática le interesa? <strong>REQUERIDO</strong></label>
-                        <select name="sesion" id="Tipo de sesión">
-                            <option value="NT">----</option>
-                            <option value="N">Navideña</option>
-                            <option value="I">Infantil</option>
-                            <option value="F">Familiar</option>
+                    <div class="mb-3 text-center">
+                        <label for="exampleFormControlInput1" class="form-label">Celular <strong>REQUERIDO</strong>:</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="nombre@ejemplo.com">
+    
+                    </div>
+                    <div class="mb-3 text-center">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Qué temática le interesa?
+                            <strong>REQUERIDO</strong></label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>-------</option>
+                            <option value="1">Navideña</option>
+                            <option value="2">Infantil</option>
+                            <option value="3">Familiar</option>
                         </select>
                     </div>
-                    <div>
-                        <label for="sesion">¿Cuál es el plan que desea? <strong>REQUERIDO</strong></label>
-                        <select name="sesion" id="Tipo de sesión">
-                            <option value="NT">----</option>
-                            <option value="N">Especial</option>
-                            <option value="I">Extra</option>
-                            <option value="F">Estandard</option>
+                    <div class="mb-3 text-center">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Qué paquete desea contratar?
+                            <strong>REQUERIDO</strong></label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>-------</option>
+                            <option value="1">Especial</option>
+                            <option value="2">Extra</option>
+                            <option value="3">Estándar</option>
                         </select>
                     </div>
-                    <div>
-                        <label for="mensaje">Dejame un mensaje: </label>
-                        <input type="text" name="" id="mensaje" style="width: 315px;">
+                    <div class="text-center pt-3 pb-4">
+                        <a class="btn btn-light" role="button">Enviar</a>
                     </div>
-                    <div>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Borrar">
-                    </div>
-                </form>
-            </fieldset>
+                    
+                </div>
+                <div class="col-md-6 col-lg-6 pb-4 foto-contacto">
+                    <img src="../img/fotodos.jpg" alt="foto de presentacion en Contacto">
+                </div>
+            </div>
+        </section>
+        <!-- <section>
+            <form action="" method="post" enctype="text/plain">
+                
+                
+                
+                <div>
+                    <label for="sesion">¿Qué temática le interesa? <strong>REQUERIDO</strong></label>
+                    <select name="sesion" id="Tipo de sesión">
+                        <option value="NT">----</option>
+                        <option value="N">Navideña</option>
+                        <option value="I">Infantil</option>
+                        <option value="F">Familiar</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="sesion">¿Cuál es el plan que desea? <strong>REQUERIDO</strong></label>
+                    <select name="sesion" id="Tipo de sesión">
+                        <option value="NT">----</option>
+                        <option value="N">Especial</option>
+                        <option value="I">Extra</option>
+                        <option value="F">Estandard</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="mensaje">Dejame un mensaje: </label>
+                    <input type="text" name="" id="mensaje" style="width: 315px;">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </div>
+            </form>
             <img src="../img/fotodos.jpg" alt="">
         </section>
-        <hr>
+        <hr> -->
     </main>
     <footer class="fondo-header-footer">
         <div class="container container-md container-lg text-center">
