@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 main {
     background-color: #232323;
 }
@@ -68,10 +69,21 @@ div a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.parrafos-galeria {
+    text-align: left;
+    padding: 1vh;
+    color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .img-presentacion {
     padding: 2vh;
     max-width: 100%;
     border-radius: 35px;
+}
+
+.img-galeria {
+    border-radius: 10px;
 }
 
 #foto-perfil {
