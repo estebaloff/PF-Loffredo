@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 main {
     background-color: #232323;
 }
@@ -23,6 +22,18 @@ nav ul {
 
 div a {
     text-decoration: none;
+}
+
+.logoflotante {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 100px;
+    color: #20ba2d;
+}
+
+.logoflotante:hover {
+    color: #0e5a18;
 }
 
 /* ----- HEADER ----- */
@@ -47,12 +58,14 @@ div a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: 3vh;
     padding-bottom: 1vh;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
 }
 
 .subtitulos-h2 {
     text-align: center;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
 }
 
 .subtitulos-h3 {
@@ -60,6 +73,7 @@ div a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     padding: 1vh;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
 }
 
 .parrafos {
@@ -67,6 +81,7 @@ div a {
     padding: 1vh;
     color: lightgray;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
 }
 
 .parrafos-galeria {
@@ -74,20 +89,30 @@ div a {
     padding: 1vh;
     color: lightgray;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
 }
 
 .img-presentacion {
-    padding: 2vh;
     max-width: 100%;
     border-radius: 35px;
+    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
 }
 
 .img-galeria {
     border-radius: 10px;
+    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.img-galeria:hover {
+    box-shadow: .2rem .2rem 1rem #4b4b4b, -.2rem -.2rem 1rem #4b4b4b;
+    transform: scale(1.2);
 }
 
 #foto-perfil {
     border-radius: 10px;
+    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
 }
 
 .titulo-bio {
@@ -101,6 +126,7 @@ div a {
     height: 594px;
     border-radius: 10px;
     object-fit: cover;
+    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
 }
 
 /* ----- DECORACIONEN PRESUP ----- */
@@ -112,6 +138,14 @@ div a {
     border-radius: 20px;
     margin-bottom: 1rem;
     background-color: rgb(211, 204, 174);
+    cursor: pointer;
+    transition: all 0.8s ease;
+    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
+}
+
+.tarjeta-presup:hover {
+    box-shadow: .2rem .2rem 1rem rgb(245, 237, 209), -.2rem -.2rem 1rem rgb(245, 237, 209);
+    transform: translate(5px, 8px);
 }
 
 .subtitulos-items {
@@ -124,7 +158,7 @@ div a {
 .items-presup {
     text-align: left;
     padding: 1vh;
-    color: rgb(3, 1, 1);
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -132,6 +166,10 @@ div a {
     padding-top: 3vh;
     text-align: left;
     color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.preguntas-txt {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
