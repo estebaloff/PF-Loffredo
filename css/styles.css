@@ -165,11 +165,12 @@ div a {
 .preguntas-frec {
     padding-top: 3vh;
     text-align: left;
-    color: lightgray;
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .preguntas-txt {
+    color: lightgray;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -178,3 +179,55 @@ div a {
 .color-nav {
     color: lightgray;
 }
+
+.maps {
+    border-radius: 10px;
+}
+
+.boton-bio {
+    background-color: rgb(39, 108, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: white;
+    padding: .8rem 1.3rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all .6s ease;
+    box-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+}
+
+.boton-bio:hover{
+    background-color: rgb(3, 69, 212);
+}
+
+.boton-contacto {
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all .6s ease;
+    box-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+}
+
+.boton-contacto:hover{
+    background-color: lightgrey;
+}
+
+button a{
+    color: white;
+}
+
+
+
+/* .boton-bio:hover {
+    box-shadow: .5rem .5rem 1rem #fff, -.5rem -.5rem 1rem #ccc
+}
+
+.boton-bio:active {
+    box-shadow: inset .2rem .2rem 1rem #fff, inset -.2rem -.2rem 1rem #ccc
+} */
