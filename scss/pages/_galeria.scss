@@ -1,0 +1,19 @@
+.img-galeria {
+    border-radius: 10px;
+    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
+    cursor: pointer;
+    transition: all 0.8s ease;
+
+    &:hover {
+    box-shadow: .2rem .2rem 1rem #4b4b4b, -.2rem -.2rem 1rem #4b4b4b;
+    transform: scale(1.2);
+    }
+}
+
+.parrafos-galeria {
+    text-align: left;
+    padding: 1vh;
+    color: $color-parrafos;
+    font-family: $ff-parrafos;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+}

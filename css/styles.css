@@ -1,223 +1,209 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 main {
-    background-color: #232323;
-}
-
-footer {
-    background-color: #232323;
-}
-
-section div img {
-    max-width: 100%;
+  background-color: #232323;
 }
 
 nav ul {
-    text-align: center;
+  text-align: center;
 }
 
 div a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.logoflotante {
-    position: fixed;
-    right: 30px;
-    bottom: 50px;
-    width: 100px;
-    color: #20ba2d;
+section div img {
+  max-width: 100%;
 }
-
-.logoflotante:hover {
-    color: #0e5a18;
-}
-
-/* ----- HEADER ----- */
-
-.firma-header {
-    max-width: 80vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem;
-}
-
-.fondo-header-footer {
-    background-color: #121212;
-}
-
-/* ----- MAIN ----- */
 
 .titulos {
-    color: white;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 3vh;
-    padding-bottom: 1vh;
-    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 3vh;
+  padding-bottom: 1vh;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
 }
 
 .subtitulos-h2 {
-    text-align: center;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
 }
 
 .subtitulos-h3 {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    padding: 1vh;
-    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 1vh;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
 }
 
 .parrafos {
-    text-align: center;
-    padding: 1vh;
-    color: lightgray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+  text-align: center;
+  padding: 1vh;
+  color: lightgray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
 }
 
-.parrafos-galeria {
-    text-align: left;
-    padding: 1vh;
-    color: lightgray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+.logoflotante {
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  width: 100px;
+  color: #20ba2d;
+}
+.logoflotante:hover {
+  color: #0e5a18;
 }
 
-.img-presentacion {
-    max-width: 100%;
-    border-radius: 35px;
-    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
+.firma-header {
+  max-width: 80vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
 }
 
-.img-galeria {
-    border-radius: 10px;
-    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
-    cursor: pointer;
-    transition: all 0.8s ease;
+.fondo-header-footer {
+  background-color: #121212;
 }
-
-.img-galeria:hover {
-    box-shadow: .2rem .2rem 1rem #4b4b4b, -.2rem -.2rem 1rem #4b4b4b;
-    transform: scale(1.2);
-}
-
-#foto-perfil {
-    border-radius: 10px;
-    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
-}
-
-.titulo-bio {
-    padding-top: 3vh;
-    padding-bottom: 2vh;
-}
-
-/* ----- DECORACIONEN PRESUP ----- */
-
-.foto-contacto {
-    height: 594px;
-    border-radius: 10px;
-    object-fit: cover;
-    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
-}
-
-/* ----- DECORACIONEN PRESUP ----- */
-
-.tarjeta-presup {
-    width: 100%;
-    height: 100%;
-    border: 2px solid rgb(87, 87, 87);
-    border-radius: 20px;
-    margin-bottom: 1rem;
-    background-color: rgb(211, 204, 174);
-    cursor: pointer;
-    transition: all 0.8s ease;
-    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
-}
-
-.tarjeta-presup:hover {
-    box-shadow: .2rem .2rem 1rem rgb(245, 237, 209), -.2rem -.2rem 1rem rgb(245, 237, 209);
-    transform: translate(5px, 8px);
-}
-
-.subtitulos-items {
-    text-align: center;
-    padding: 1vh;
-    color: rgb(131, 40, 4);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.items-presup {
-    text-align: left;
-    padding: 1vh;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.preguntas-frec {
-    padding-top: 3vh;
-    text-align: left;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.preguntas-txt {
-    color: lightgray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-/* ----- FOOTER ----- */
 
 .color-nav {
-    color: lightgray;
+  color: lightgray;
 }
 
 .maps {
-    border-radius: 10px;
+  border-radius: 10px;
+}
+
+.fondo-header-footer {
+  background-color: #121212;
+}
+
+button a {
+  color: white;
 }
 
 .boton-bio {
-    background-color: rgb(39, 108, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: lighter;
-    color: white;
-    padding: .8rem 1.3rem;
-    border: 1px solid black;
-    border-radius: .5rem;
-    cursor: pointer;
-    transition: all .6s ease;
-    box-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+  background-color: rgb(39, 108, 255);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  color: white;
+  padding: 0.8rem 1.3rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
 }
-
-.boton-bio:hover{
-    background-color: rgb(3, 69, 212);
+.boton-bio:hover {
+  background-color: rgb(3, 69, 212);
 }
 
 .boton-contacto {
-    background-color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: lighter;
-    color: rgb(0, 0, 0);
-    padding: .5rem 1rem;
-    border: 1px solid black;
-    border-radius: .5rem;
-    cursor: pointer;
-    transition: all .6s ease;
-    box-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
+}
+.boton-contacto:hover {
+  background-color: lightgrey;
 }
 
-.boton-contacto:hover{
-    background-color: lightgrey;
+.tarjeta-presup {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(87, 87, 87);
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  background-color: rgb(211, 204, 174);
+  cursor: pointer;
+  transition: all 0.8s ease;
+  box-shadow: 0.2rem 0.2rem 1rem #111111, -0.2rem -0.2rem 1rem #111111;
+}
+.tarjeta-presup:hover {
+  box-shadow: 0.2rem 0.2rem 1rem rgb(245, 237, 209), -0.2rem -0.2rem 1rem rgb(245, 237, 209);
+  transform: translate(5px, 8px);
 }
 
-button a{
-    color: white;
+.subtitulos-items {
+  text-align: center;
+  padding: 1vh;
+  color: rgb(131, 40, 4);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+.items-presup {
+  text-align: left;
+  padding: 1vh;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.img-presentacion {
+  max-width: 100%;
+  border-radius: 35px;
+  box-shadow: 0.2rem 0.2rem 1rem #111111, -0.2rem -0.2rem 1rem #111111;
+}
+
+.img-galeria {
+  border-radius: 10px;
+  box-shadow: 0.2rem 0.2rem 1rem #111111, -0.2rem -0.2rem 1rem #111111;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+.img-galeria:hover {
+  box-shadow: 0.2rem 0.2rem 1rem #4b4b4b, -0.2rem -0.2rem 1rem #4b4b4b;
+  transform: scale(1.2);
+}
+
+.parrafos-galeria {
+  text-align: left;
+  padding: 1vh;
+  color: lightgray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
+}
+
+#foto-perfil {
+  border-radius: 10px;
+  box-shadow: 0.2rem 0.2rem 1rem #111111, -0.2rem -0.2rem 1rem #111111;
+}
+
+.titulo-bio {
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+}
+
+.foto-contacto {
+  height: 594px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0.2rem 0.2rem 1rem #111111, -0.2rem -0.2rem 1rem #111111;
+}
+
+.preguntas-frec {
+  padding-top: 3vh;
+  text-align: left;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.preguntas-txt {
+  color: lightgray;
+}
+
+/*# sourceMappingURL=styles.css.map */

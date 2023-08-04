@@ -1,0 +1,100 @@
+$color-main: #232323;
+
+$color-header-footer: #121212;
+
+$color-titulos: white;
+
+$color-parrafos: lightgray;
+
+$color-tarjeta-presup: rgb(211, 204, 174);
+
+$color-items-presup: black;
+
+$color-footer-nav: lightgray;
+
+$ff-titulos: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+$ff-subtitulos: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+$ff-parrafos: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+$ff-items-subtitulos-presup: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+$ff-items-presup: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+$ff-preguntas-frec: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: $color-main;
+}
+
+nav {
+    ul {
+        text-align: center;
+    }
+}
+
+div {
+    a {
+        text-decoration: none;
+    }
+}
+
+section {
+    div {
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.titulos {
+    text-align: center;
+    color: $color-titulos;
+    font-family: $ff-titulos;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+}
+
+.subtitulos-h2 {
+    text-align: center;
+    color: $color-titulos;
+    font-family: $ff-subtitulos;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+}
+
+.subtitulos-h3 {
+    text-align: center;
+    color: $color-titulos;
+    font-family: $ff-subtitulos;
+    padding: 1vh;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+}
+
+.parrafos {
+    text-align: center;
+    padding: 1vh;
+    color: $color-parrafos;
+    font-family: $ff-parrafos;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+}
+
+.logoflotante {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 100px;
+    color: #20ba2d;
+
+    &:hover {
+        color: #0e5a18;
+    }
+}
+

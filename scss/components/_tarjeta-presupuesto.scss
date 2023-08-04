@@ -1,0 +1,30 @@
+.tarjeta-presup {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(87, 87, 87);
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    background-color: $color-tarjeta-presup;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    box-shadow: .2rem .2rem 1rem #111111, -.2rem -.2rem 1rem #111111;
+
+    &:hover {
+    box-shadow: .2rem .2rem 1rem rgb(245, 237, 209), -.2rem -.2rem 1rem rgb(245, 237, 209);
+    transform: translate(5px, 8px);
+    }
+}
+
+.subtitulos-items {
+    text-align: center;
+    padding: 1vh;
+    color: rgb(131, 40, 4);
+    font-family: $ff-items-subtitulos-presup;
+}
+
+.items-presup {
+    text-align: left;
+    padding: 1vh;
+    color: $color-items-presup;
+    font-family: $ff-items-presup;
+}
